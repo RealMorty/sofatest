@@ -10,7 +10,6 @@ public class LeetCodeRushServiceImpl implements LeetCodeRushService {
 
     @Test
     public void testPush() {
-        System.out.println();
         Assertions.assertEquals("L.", pushDominoes("L."));
     }
 
